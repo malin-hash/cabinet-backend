@@ -6,7 +6,7 @@ JWT_SECRET_KEY = "jwt-secret-key"
 JWT_ACCESS_TOKEN_EXPIRES = timedelta(days=1)
 JWT_TOKEN_LOCATION = ["headers"]
 
-SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost:3306/pabinguidb"
+SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:VbtMFyOzWmQqlgZBpLpUtHmGjyisfnXB@mysql.railway.internal:3306/railway"
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 ALLOWED_EXTENSIONS = {"jpg", "jpeg", "png", "pdf"}
